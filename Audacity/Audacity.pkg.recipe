@@ -5,14 +5,14 @@
     <key>Description</key>
     <string>Downloads the latest version of Audacity and builds a package.</string>
     <key>Identifier</key>
-    <string>local.pkg.Audacity</string>
+    <string>com.github.ruphysics.pkg.Audacity</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
         <string>Audacity</string>
     </dict>
     <key>ParentRecipe</key>
-    <string>local.download.Audacity-Release</string>
+    <string>com.github.ruphysics.download.Audacity-Release</string>
     <key>MinimumVersion</key>
     <string>1.0</string>
     <key>Process</key>

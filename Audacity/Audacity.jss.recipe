@@ -6,7 +6,7 @@
 	<string>Creates a pkg using the Audacity disk image, then uploads it to the JSS.
 </string>
 	<key>Identifier</key>
-	<string>local.jss.Audacity</string>
+	<string>com.github.ruphysics.jss.Audacity</string>
 	<key>Input</key>
 	<dict>
 		<key>CATEGORY</key>
@@ -29,7 +29,7 @@
 	<key>MinimumVersion</key>
 	<string>0.4.0</string>
 	<key>ParentRecipe</key>
-	<string>local.pkg.Audacity</string>
+	<string>com.github.ruphysics.pkg.Audacity</string>
 	<key>Process</key>
 	<array>
 		<dict>
