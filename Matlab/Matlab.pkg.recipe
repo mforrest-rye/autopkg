@@ -44,7 +44,7 @@ I've seen people are unable to locate it as it's not included in newer versions 
 			<key>Arguments</key>
 			<dict>
 				<key>pkgroot</key>
-				<string>%RECIPE_CACHE_DIR%/scripts</string>
+				<string>%RECIPE_CACHE_DIR%/Scripts</string>
 				<key>pkgdirs</key>
 				<dict/>
 			</dict>
@@ -57,7 +57,7 @@ I've seen people are unable to locate it as it's not included in newer versions 
 				<key>source_path</key>
 				<string>%SOURCE_DMG%</string>
 				<key>destination_path</key>
-				<string>%RECIPE_CACHE_DIR%/scripts/</string>
+				<string>%RECIPE_CACHE_DIR%/Scripts/</string>
 				<key>overwrite</key>
 				<true/>
 			</dict>
@@ -70,7 +70,7 @@ I've seen people are unable to locate it as it's not included in newer versions 
 				<key>source_path</key>
 				<string>%INSTALLER_INPUT%</string>
 				<key>destination_path</key>
-				<string>%RECIPE_CACHE_DIR%/scripts/installer_input.txt</string>
+				<string>%RECIPE_CACHE_DIR%/Scripts/installer_input.txt</string>
 				<key>overwrite</key>
 				<true/>				
 			</dict>
@@ -142,7 +142,7 @@ exit 0</string>
 				<key>file_mode</key>
 				<string>0755</string>
 				<key>file_path</key>
-				<string>%RECIPE_CACHE_DIR%/scripts/postinstall</string>
+				<string>%RECIPE_CACHE_DIR%/Scripts/postinstall</string>
 			</dict>
 		</dict>
 		<dict>
